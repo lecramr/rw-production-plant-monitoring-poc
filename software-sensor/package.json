@@ -1,0 +1,14 @@
+{
+  "name": "software-sensor",
+  "version": "0.0.1",
+  "description": "A software implementation of a temperature sensor, used for developing a POC.",
+  "main": "software-sensor.js",
+  "scripts": {
+    "dev": "node --env-file=.env software-sensor.js"
+  },
+  "author": "Marcel Rueckert",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
