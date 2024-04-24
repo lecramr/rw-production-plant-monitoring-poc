@@ -45,8 +45,8 @@ services:
     depends_on:
       - pl-1
       - pl-2
-    #links:
-    #  - alertmanager:alertmanager
+    links:
+      - alertmanager:alertmanager
     restart: always
 
   pl-1:
